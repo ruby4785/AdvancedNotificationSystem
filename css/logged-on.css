@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap');
+
+.container-fluid
+{
+    padding:18px;
+}
+*
+{
+    font-family: 'Ubuntu','Noto Sans', sans-serif;
+}
+body{
+    /* background-image: url(../images/background.jpg);
+     
+  height: 100%;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #0f3057;
+}
+.card{
+    background-color: #00587a;
+}
+

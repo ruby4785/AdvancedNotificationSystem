@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap');
+.container-fluid{
+    padding:30px;
+}
+body{
+    background-color: #0a043c;
+}
+h3{
+    color:white;
+    display: inline-block;
+}
+.register{
+    margin-top:110px;
+}
+.signup{
+        height: 50px;
+        margin-top:20px;
+        margin-left:100px;
+}

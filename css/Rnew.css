@@ -1,0 +1,82 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/42.jpg);
+}
+.long{
+    width: 800px;
+    height: 515px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.long::before{
+    content: '';
+    background-color: rgb(159, 160, 153);
+    width: 350px;
+    height: 515px;
+    position: absolute;
+}
+.icon img{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+}
+.icon p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-style: italic;
+
+}
+.mg{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-54%,-49%);
+    width: 350px;
+    overflow: hidden;
+}
+.mg input{
+    width: 300px;
+    height: 50 px;
+    border-top: 10px;
+    outline: none;
+
+    border: 1px solid rgba(0,0,0,0);
+    border-bottom-color: #fb007d;
+    background: transparent;
+}
+.mg select{
+    width: 250px;
+    height: 30px;
+    border-color: #fb007d;
+    font-size: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+    -webkit-appearance: button; 
+}
+.mg input[type="submit"]
+{
+    border:none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background: #2a17cc;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    
+    
+}
+.mg input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}

@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Ubuntu&display=swap');
+.colored-section{
+    background-color: #0a043c;
+}
+*
+{
+    font-family: 'Ubuntu','Noto Sans', sans-serif;
+}
+#title
+{
+    
+    height: 500px;
+}
+.span1
+{
+    color:white;
+
+}
+.span2
+{
+    color:white;
+}
+.span3
+{
+    color:white;
+}
+.container-fluid
+{
+    padding:100px;
+}
+.login{
+    margin-left:300px;
+    color:white;
+}
+#features
+{
+    text-align: center;
+}
+#peak{
+    color:white;
+}
+.peak-image{
+    height:500px;
+}
+.carousel-item
+{
+    text-align: center;
+}
+.btn{
+    width: 190px;
+}
+#register{
+    margin-left:300px;
+}
